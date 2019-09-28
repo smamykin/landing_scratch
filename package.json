@@ -1,0 +1,47 @@
+{
+  "name": "improve-js-skill",
+  "version": "2.0.0",
+  "description": "This is a homework that I make up for myself.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "browser-sync": "^2.26.7",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-twig": "^1.2.0",
+    "gulp.spritesmith": "^6.11.0",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.12.0",
+    "normalize-scss": "^7.0.1",
+    "rimraf": "latest",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "twig-html-loader": "^0.1.7",
+    "twig-loader": "^0.5.1",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "server": "gulp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smamykin/improve-js-skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smamykin/improve-js-skill/issues"
+  },
+  "homepage": "https://github.com/smamykin/improve-js-skill#readme"
+}
