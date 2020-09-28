@@ -74,6 +74,27 @@ let twigFunc = [
 
             return path;
         }
+    }, {
+        name: "html_classes",
+        func: function (object) {
+            let classes = [];
+            for (const key in arguments) {
+                if (arguments.hasOwnProperty(key)) {
+                    if (typeof arguments[key] === 'string') {
+                        classes.push(arguments[key]);
+                    } else if (typeof arguments[key] === 'object') {
+                        for (const i in arguments[key]) {
+                            if (arguments[key].hasOwnProperty(i) && i !== '_keys') {
+                                if (arguments[key][i]) {
+                                    classes.push(i);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return `${classes.join(' ')}`
+        }
     }
 ];
 //endregion
